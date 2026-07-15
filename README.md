@@ -16,7 +16,7 @@ No installation is required.
 
 - website/: the working static MVP
 - data/: role, skill and source evidence files
-- presentation/: final presentation draft
+
 
 ## GitHub
 
