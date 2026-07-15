@@ -20,7 +20,7 @@ No installation is required.
 
 ## GitHub
 
-GitHub repository link: [to be added]
+GitHub repository link: [(https://github.com/ZhangyingGe/Career_Pathways_and_Skills_Explorer)]
 
 ## Note
 
