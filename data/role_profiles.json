@@ -1,0 +1,122 @@
+[
+  {
+    "role_id": "role_research_assistant",
+    "career_role": "Research Assistant",
+    "sector": "Research and higher education",
+    "role_summary": "Supports academic, social or organisational research projects by helping with literature review, data collection, analysis, records and reporting.",
+    "degree_relevance_tags": ["sociology", "social sciences", "psychology", "education", "public health", "politics", "economics", "data analytics"],
+    "essential_skills": ["Literature review", "Research design", "Data collection", "Qualitative research", "Report writing", "Attention to detail"],
+    "desirable_skills": ["Survey design", "Excel", "Statistical analysis", "Data ethics and confidentiality"],
+    "typical_entry_stage": "Suitable for undergraduate research experience, placements, final-year projects, graduate assistant roles or postgraduate preparation.",
+    "evidence_source_ids": ["SRC001", "SRC002", "SRC033"],
+    "evidence_strength": "moderate"
+  },
+  {
+    "role_id": "role_social_researcher",
+    "career_role": "Research Officer / Social Researcher",
+    "sector": "Social research and government analysis",
+    "role_summary": "Designs and delivers social research to answer questions about people, services, policy or society, using qualitative and quantitative evidence.",
+    "degree_relevance_tags": ["sociology", "social sciences", "politics", "psychology", "criminology", "education", "public policy", "research methods"],
+    "essential_skills": ["Research design", "Survey design", "Qualitative research", "Quantitative research", "Evidence synthesis", "Report writing"],
+    "desirable_skills": ["Statistical analysis", "Presentation", "Policy analysis", "Data ethics and confidentiality", "Stakeholder communication"],
+    "typical_entry_stage": "Relevant from second year onwards through research methods modules, internships, dissertations, placements or graduate researcher routes.",
+    "evidence_source_ids": ["SRC003", "SRC004", "SRC005", "SRC006"],
+    "evidence_strength": "strong"
+  },
+  {
+    "role_id": "role_market_research_analyst",
+    "career_role": "Market Research Analyst",
+    "sector": "Market and customer insight",
+    "role_summary": "Collects and analyses market, consumer and competitor information to help organisations understand demand, behaviour and opportunities.",
+    "degree_relevance_tags": ["marketing", "business", "sociology", "psychology", "social sciences", "economics", "statistics", "data analytics"],
+    "essential_skills": ["Market analysis", "Survey design", "Quantitative research", "Statistical analysis", "Data visualisation", "Report writing"],
+    "desirable_skills": ["Excel", "Data cleaning", "User or customer research", "Digital analytics", "Presentation"],
+    "typical_entry_stage": "Useful for students with research methods, statistics, marketing, placement or internship experience; graduate analyst routes are common.",
+    "evidence_source_ids": ["SRC007", "SRC008", "SRC009", "SRC010"],
+    "evidence_strength": "strong"
+  },
+  {
+    "role_id": "role_customer_insights_analyst",
+    "career_role": "Customer Insights Analyst",
+    "sector": "Market and customer insight",
+    "role_summary": "Turns customer data, survey findings and behaviour evidence into insight that can inform products, services, campaigns or customer experience.",
+    "degree_relevance_tags": ["marketing", "business", "sociology", "psychology", "social sciences", "data analytics", "statistics", "consumer behaviour"],
+    "essential_skills": ["User or customer research", "Market analysis", "Data cleaning", "Statistical analysis", "Data visualisation", "Explaining data insights"],
+    "desirable_skills": ["SQL", "Dashboard reporting", "Digital analytics", "Survey design", "Stakeholder communication"],
+    "typical_entry_stage": "Most relevant after students have basic data analysis, market research or customer research project experience.",
+    "evidence_source_ids": ["SRC007", "SRC010", "SRC011", "SRC012", "SRC034"],
+    "evidence_strength": "moderate"
+  },
+  {
+    "role_id": "role_policy_researcher",
+    "career_role": "Policy Researcher / Policy Officer",
+    "sector": "Policy and public service",
+    "role_summary": "Uses research, consultation and evidence analysis to support policy advice, briefings, evaluation and communication with stakeholders.",
+    "degree_relevance_tags": ["politics", "social sciences", "sociology", "public policy", "international relations", "law", "economics", "public administration"],
+    "essential_skills": ["Policy analysis", "Evidence synthesis", "Research design", "Written communication", "Stakeholder communication", "Report writing"],
+    "desirable_skills": ["Quantitative research", "Qualitative research", "Data visualisation", "Project coordination", "Presentation"],
+    "typical_entry_stage": "Useful for students with policy modules, research essays, volunteering, internships, student representation or dissertation evidence.",
+    "evidence_source_ids": ["SRC013", "SRC014", "SRC015"],
+    "evidence_strength": "strong"
+  },
+  {
+    "role_id": "role_data_analyst",
+    "career_role": "Data Analyst",
+    "sector": "Data and analytics",
+    "role_summary": "Collects, cleans, analyses and explains data to produce insight for operational, business, research or public-service decisions.",
+    "degree_relevance_tags": ["data analytics", "statistics", "mathematics", "computer science", "economics", "business", "sociology", "social sciences"],
+    "essential_skills": ["Data cleaning", "Statistical analysis", "Excel", "Data visualisation", "Explaining data insights", "Attention to detail"],
+    "desirable_skills": ["Python", "SQL", "Dashboard reporting", "Problem solving", "Written communication"],
+    "typical_entry_stage": "Relevant once students can show spreadsheet, statistics, coding, dashboard or data-project evidence; internships and portfolio projects help.",
+    "evidence_source_ids": ["SRC016", "SRC017", "SRC018", "SRC019"],
+    "evidence_strength": "strong"
+  },
+  {
+    "role_id": "role_business_analyst",
+    "career_role": "Business Analyst",
+    "sector": "Business and digital transformation",
+    "role_summary": "Investigates business needs, processes and problems, then communicates requirements and possible improvements to stakeholders and delivery teams.",
+    "degree_relevance_tags": ["business", "management", "information systems", "data analytics", "economics", "law", "social sciences", "psychology"],
+    "essential_skills": ["Requirements gathering", "Business process analysis", "Stakeholder communication", "Problem solving", "Written communication", "Presentation"],
+    "desirable_skills": ["Data visualisation", "SQL", "Excel", "Project coordination", "Explaining data insights"],
+    "typical_entry_stage": "Relevant for students who can evidence analysis, process improvement, stakeholder work, internships, placements or systems projects.",
+    "evidence_source_ids": ["SRC020", "SRC021", "SRC022", "SRC023"],
+    "evidence_strength": "strong"
+  },
+  {
+    "role_id": "role_people_analyst",
+    "career_role": "People Analyst",
+    "sector": "People and HR analytics",
+    "role_summary": "Uses HR, workforce and organisational data to create people insights that support evidence-based decisions about employees and work.",
+    "degree_relevance_tags": ["human resources", "business", "psychology", "sociology", "social sciences", "data analytics", "statistics", "management"],
+    "essential_skills": ["People data analysis", "Data cleaning", "Excel", "Data visualisation", "Explaining data insights", "Data ethics and confidentiality"],
+    "desirable_skills": ["Statistical analysis", "Dashboard reporting", "Stakeholder communication", "Presentation", "Project coordination"],
+    "typical_entry_stage": "Useful when students can connect basic analytics with HR, organisational behaviour, psychology or business project evidence.",
+    "evidence_source_ids": ["SRC024", "SRC025", "SRC035", "SRC036"],
+    "evidence_strength": "moderate"
+  },
+  {
+    "role_id": "role_project_assistant",
+    "career_role": "Project Assistant",
+    "sector": "Project and operations support",
+    "role_summary": "Supports project teams with coordination, records, scheduling, progress tracking, communication and practical delivery tasks.",
+    "degree_relevance_tags": ["business", "management", "social sciences", "communications", "information systems", "public administration", "any subject"],
+    "essential_skills": ["Project coordination", "Time management", "Teamwork", "Written communication", "Stakeholder communication", "Attention to detail"],
+    "desirable_skills": [],
+    "typical_entry_stage": "Useful for students who have coordinated activities, kept records, supported events or helped teams deliver tasks on time.",
+    "evidence_source_ids": ["SRC026", "SRC027", "SRC028", "SRC037", "SRC038"],
+    "evidence_strength": "moderate"
+  },
+  {
+    "role_id": "role_communications_assistant",
+    "career_role": "Communications Assistant",
+    "sector": "Communications and public engagement",
+    "role_summary": "Supports written, digital and stakeholder communications, often helping with public relations, social media, content and presentations.",
+    "degree_relevance_tags": ["communications", "media", "english", "marketing", "politics", "social sciences", "sociology", "public relations"],
+    "essential_skills": ["Written communication", "Public relations writing", "Social media communication", "Stakeholder communication", "Presentation", "Teamwork"],
+    "desirable_skills": ["Digital analytics", "Project coordination", "Report writing", "Attention to detail"],
+    "typical_entry_stage": "Useful for students with writing samples, student society communications, volunteering, placement or digital content experience.",
+    "evidence_source_ids": ["SRC029", "SRC030", "SRC031", "SRC032", "SRC039", "SRC040"],
+    "evidence_strength": "moderate"
+  }
+]

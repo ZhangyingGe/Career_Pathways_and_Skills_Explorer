@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Career Pathways and Skills Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <p class="module-label">University careers prototype</p>
+        <h1>Career Pathways and Skills Explorer</h1>
+      </div>
+      <p class="header-note">Rule-based role matching using a small public-source dataset.</p>
+    </header>
+
+    <main class="app-shell">
+      <section class="input-panel" aria-labelledby="profile-heading">
+        <h2 id="profile-heading">Student Profile</h2>
+        <form id="student-form" novalidate>
+          <div class="field">
+            <label for="degree">Degree subject</label>
+            <input id="degree" name="degree" type="text" autocomplete="off" placeholder="Example: Sociology and Data Analytics" aria-describedby="degree-scope-note degree-scope-message">
+            <p id="degree-scope-note" class="field-note">This MVP works best for broad or interdisciplinary degrees such as social sciences, sociology, politics, economics, business, communications and data-related combined degrees.</p>
+            <div id="degree-scope-message" class="scope-message" role="status" aria-live="polite"></div>
+          </div>
+
+          <div class="field two-column">
+            <div>
+              <label for="academic-stage">Academic stage</label>
+              <select id="academic-stage" name="academic-stage" aria-describedby="academic-stage-note">
+                <option value="">Select academic stage</option>
+                <option value="year1">Year 1</option>
+                <option value="year2">Year 2</option>
+                <option value="final">Final year</option>
+                <option value="masters">Master's student</option>
+              </select>
+              <p id="academic-stage-note" class="field-note">Choose the option that best describes your current academic level.</p>
+            </div>
+            <div>
+              <label for="sector">Preferred career sector</label>
+              <select id="sector" name="sector">
+                <option value="">No preference</option>
+              </select>
+            </div>
+          </div>
+
+          <fieldset class="skill-fieldset">
+            <legend>Current skills</legend>
+            <div id="skills-list" class="skills-list"></div>
+          </fieldset>
+
+          <div class="field">
+            <label for="extra-skills">Other skills to include</label>
+            <textarea id="extra-skills" name="extra-skills" rows="3" placeholder="Example: survey design, Excel, presentation"></textarea>
+          </div>
+
+          <div id="validation-summary" class="validation-summary" role="alert" aria-live="polite"></div>
+
+          <div class="actions">
+            <button type="submit">Find Top 5 Roles</button>
+            <button type="reset" class="secondary-button">Reset</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="results-panel" aria-labelledby="results-heading">
+        <div class="results-heading-row">
+          <div>
+            <p class="module-label">Matching output</p>
+            <h2 id="results-heading">Top 5 Career Roles</h2>
+          </div>
+          <p id="result-count" class="result-count">Waiting for a student profile</p>
+        </div>
+
+        <div id="score-chart" class="score-chart" aria-label="Role fit score comparison"></div>
+        <div id="results" class="results-list">
+          <p class="empty-state">Complete the student profile to see role fit scores, matched skills and skills to develop.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Scores show dataset fit only. They are not employment probabilities.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
