@@ -2,34 +2,32 @@
 
 ## Live Website
 
-👉 [Open the Career Pathways and Skills Explorer website](https://zhangyingge.github.io/Career_Pathways_and_Skills_Explorer/website/)
+👉 [Open the Career Pathways and Skills Explorer website](https://zhangyingge.github.io/Career_Pathways_and_Skills_Explorer/)
+
+Direct website folder link:
+
+👉 [Open `/website/` directly](https://zhangyingge.github.io/Career_Pathways_and_Skills_Explorer/website/)
 
 ## Source Code
 
-This repository contains the static MVP source code and dataset files.
-# Career Pathways and Skills Explorer
+GitHub repository:
 
-This is a static MVP website for career exploration.
+https://github.com/ZhangyingGe/Career_Pathways_and_Skills_Explorer
 
-## How to open the website
+## About This Project
 
-Open:
+This is a static MVP website for career exploration. It helps students compare possible career roles based on degree subject, academic stage, current skills and optional preferred sector.
 
+The project uses a transparent rule-based role fit score. The score is not an employment probability.
+
+## What Is Included
+
+- `website/`: the working static MVP website.
+- `data/`: role, skill and public-source evidence files.
+
+## How To Run Locally
+
+Open this file in Google Chrome:
+
+```text
 website/index.html
-
-in Google Chrome.
-
-No installation is required.
-
-## What is included
-
-- website/: the working static MVP
-- data/: role, skill and source evidence files
-
-
-## GitHub
-
-GitHub repository link: [(https://github.com/ZhangyingGe/Career_Pathways_and_Skills_Explorer)]
-
-## Note
-The website is also available through GitHub Pages.This MVP is local-only and is not deployed online yet.
